@@ -140,7 +140,7 @@ const getUnauthorized = (request, response, acceptedTypes, params) => {
 
 const notFound = (request, response, acceptedTypes) => {
   const responseJson = {
-    message: 'This is a successful response',
+    message: 'The page was not found',
     id: 'notFound',
   };
 
